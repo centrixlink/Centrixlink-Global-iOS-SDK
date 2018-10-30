@@ -18,16 +18,15 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description = <<-DESC
-Centrixlink RTB iOS SDK. V1.0.0
+Centrixlink Global iOS SDK. V1.0.0
                        DESC
   s.requires_arc = true
   s.homepage = "http://www.Centrixlink.com/"
   s.platform = :ios, "8.0"
   s.license = {:type => "MIT", :file => "LICENSE"}
-  s.source = {:git => "https://git.centrixlink.com/xujiawei/CentrixlinkGlobal-SDK-Prepare.git", :tag => s.version.to_s}
+  s.source = {:git => "https://github.com/centrixlink/Centrixlink-Global-iOS-SDK.git", :tag => s.version.to_s}
   s.author = {"CentrixlinkGlobal" => "devsupport@Centrixlink.com", "jiawei.xu" => "jiawei.xu@centrixlink.com"}
   s.ios.deployment_target = "8.0"
-  #s.source_files = 'CentrixlinkGlobal/Classes/**/*'
   s.resources = "CentrixlinkGlobal/Assets/CLGlobalAdBundle.bundle"
   s.vendored_frameworks = "CentrixlinkGlobal/Framework/CentrixlinkGlobal.framework"
   s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
