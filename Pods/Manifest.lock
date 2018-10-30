@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  CentrixlinkGlobal: 6d95a8be8f4c7e09c7e2ff1707d29a65cc5f4727
+  CentrixlinkGlobal: e792f9e87e77bff204ba0e6a23a303af5e5bebdf
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: c9a84c99aa9d9a34d6c3f3f101851797c9e5dce1
