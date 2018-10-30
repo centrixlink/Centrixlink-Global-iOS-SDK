@@ -1,0 +1,1 @@
+../../../../../CentrixlinkGlobal/Framework/CentrixlinkGlobal.framework/Headers/CLGlobalAd.h

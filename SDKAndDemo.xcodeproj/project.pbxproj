@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461B2E8C216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 461B2E8A216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.m */; };
+		461B2E8D216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461B2E8B216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.xib */; };
+		4664FB9C2176D0F700AD115A /* CLDEMOInterstitialConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4664FB9B2176D0F700AD115A /* CLDEMOInterstitialConfig.m */; };
+		4664FBA02176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4664FB9E2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.m */; };
+		4664FBA12176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4664FB9F2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.xib */; };
+		4664FBA32176D6F300AD115A /* CLDEMOInterstitialAdDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4664FBA22176D6F300AD115A /* CLDEMOInterstitialAdDisplayView.xib */; };
+		4664FBA52177445C00AD115A /* CLDEMONativeOnNormalContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4664FBA42177445C00AD115A /* CLDEMONativeOnNormalContainerView.xib */; };
+		4664FBAE217745DA00AD115A /* CLDEMONativeNormalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4664FBAC217745DA00AD115A /* CLDEMONativeNormalTableViewController.m */; };
+		466E84A7216F274B00B38982 /* CLDEMONativeAdLoadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466E84A6216F274B00B38982 /* CLDEMONativeAdLoadView.xib */; };
+		4673F4B9217088DB00D5193C /* CLDEMONativeAdDisplayContainerTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4673F4B7217088DB00D5193C /* CLDEMONativeAdDisplayContainerTypeTableViewController.m */; };
+		4673F4C221708B1200D5193C /* CLDEMONativeAdCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4673F4C021708B1200D5193C /* CLDEMONativeAdCollectionViewController.m */; };
+		4673F4C321708B1200D5193C /* CLDEMONativeAdCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4673F4C121708B1200D5193C /* CLDEMONativeAdCollectionViewController.xib */; };
+		4673F4CC2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4673F4CA2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.m */; };
+		4673F4CD2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4673F4CB2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.xib */; };
+		4675B8E2215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4675B8E0215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.m */; };
+		4675B8E3215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4675B8E1215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.xib */; };
+		4675B8E7215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4675B8E5215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.m */; };
+		4675B8E8215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4675B8E6215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.xib */; };
+		4686B46A216DA9FA00502527 /* CLDEMOInterstitialAdConfig.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4686B469216DA9FA00502527 /* CLDEMOInterstitialAdConfig.xib */; };
+		46A9C9BC2186A58000AA3525 /* CLDEMOBannerAdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A9C9BA2186A58000AA3525 /* CLDEMOBannerAdTableViewController.m */; };
+		46A9C9BE2186A78F00AA3525 /* CLDEMOBannerAdDisplayContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46A9C9BD2186A78F00AA3525 /* CLDEMOBannerAdDisplayContainerView.xib */; };
+		46B138B0212E8B98008323CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B1388A212E8B95008323CA /* Assets.xcassets */; };
+		46B138B9212E8B98008323CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B13897212E8B96008323CA /* main.m */; };
+		46B138BA212E8B98008323CA /* CLDEMOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B13898212E8B96008323CA /* CLDEMOAppDelegate.m */; };
+		46B138BB212E8B98008323CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B1389A212E8B96008323CA /* LaunchScreen.storyboard */; };
+		46B138BC212E8B98008323CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B1389C212E8B96008323CA /* Main.storyboard */; };
+		46D8ED8821747F9700433506 /* CLDEMORootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D8ED8621747F9700433506 /* CLDEMORootTableViewController.m */; };
+		46E148CA21522C840076FB37 /* CLDEMOInterstitialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E148BD21522C840076FB37 /* CLDEMOInterstitialTableViewController.m */; };
+		46E148CB21522C840076FB37 /* CLDEMONativeAdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E148BE21522C840076FB37 /* CLDEMONativeAdTableViewController.m */; };
+		46E148CD21522C840076FB37 /* CLDEMOLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E148C521522C840076FB37 /* CLDEMOLog.m */; };
+		46E148CF21522C840076FB37 /* CLDEMOAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E148C821522C840076FB37 /* CLDEMOAppInfo.m */; };
+		46E148E52152535F0076FB37 /* CLDEMORootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E148E42152535F0076FB37 /* CLDEMORootTableViewCell.m */; };
+		46E148E72152550F0076FB37 /* CLDEMORootTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E148E62152550E0076FB37 /* CLDEMORootTableViewCell.xib */; };
+		46ED925C21784C1300501B7C /* CLDEMOStaticSectonHeaderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ED925B21784C1300501B7C /* CLDEMOStaticSectonHeaderTableViewController.m */; };
+		46ED925E21784EBA00501B7C /* CLDEMONativeOnNormalLoadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46ED925D21784EBA00501B7C /* CLDEMONativeOnNormalLoadView.xib */; };
+		6B2065D7D9230A66457B51D4 /* libPods-SDKAndDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE3C27B83319E5557621676 /* libPods-SDKAndDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46B13516212E86CA008323CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B4F87743C394E9BA8D55106 /* Pods-SDKAndDemo.uitesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKAndDemo.uitesting.xcconfig"; path = "Pods/Target Support Files/Pods-SDKAndDemo/Pods-SDKAndDemo.uitesting.xcconfig"; sourceTree = "<group>"; };
+		1FE3C27B83319E5557621676 /* libPods-SDKAndDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKAndDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAE8E3F08C2CEAC5C54B45F /* Pods-SDKAndDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKAndDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDKAndDemo/Pods-SDKAndDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		461B2E89216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMOBannerAdContainerTableViewCell.h; sourceTree = "<group>"; };
+		461B2E8A216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMOBannerAdContainerTableViewCell.m; sourceTree = "<group>"; };
+		461B2E8B216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMOBannerAdContainerTableViewCell.xib; sourceTree = "<group>"; };
+		4664FB9A2176D0F700AD115A /* CLDEMOInterstitialConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMOInterstitialConfig.h; sourceTree = "<group>"; };
+		4664FB9B2176D0F700AD115A /* CLDEMOInterstitialConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMOInterstitialConfig.m; sourceTree = "<group>"; };
+		4664FB9D2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMOInterstitialConfigTableViewController.h; sourceTree = "<group>"; };
+		4664FB9E2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMOInterstitialConfigTableViewController.m; sourceTree = "<group>"; };
+		4664FB9F2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMOInterstitialConfigTableViewController.xib; sourceTree = "<group>"; };
+		4664FBA22176D6F300AD115A /* CLDEMOInterstitialAdDisplayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMOInterstitialAdDisplayView.xib; sourceTree = "<group>"; };
+		4664FBA42177445C00AD115A /* CLDEMONativeOnNormalContainerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMONativeOnNormalContainerView.xib; sourceTree = "<group>"; };
+		4664FBAB217745DA00AD115A /* CLDEMONativeNormalTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMONativeNormalTableViewController.h; sourceTree = "<group>"; };
+		4664FBAC217745DA00AD115A /* CLDEMONativeNormalTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMONativeNormalTableViewController.m; sourceTree = "<group>"; };
+		466E84A6216F274B00B38982 /* CLDEMONativeAdLoadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMONativeAdLoadView.xib; sourceTree = "<group>"; };
+		4673F4B6217088DB00D5193C /* CLDEMONativeAdDisplayContainerTypeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMONativeAdDisplayContainerTypeTableViewController.h; sourceTree = "<group>"; };
+		4673F4B7217088DB00D5193C /* CLDEMONativeAdDisplayContainerTypeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMONativeAdDisplayContainerTypeTableViewController.m; sourceTree = "<group>"; };
+		4673F4BF21708B1200D5193C /* CLDEMONativeAdCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMONativeAdCollectionViewController.h; sourceTree = "<group>"; };
+		4673F4C021708B1200D5193C /* CLDEMONativeAdCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMONativeAdCollectionViewController.m; sourceTree = "<group>"; };
+		4673F4C121708B1200D5193C /* CLDEMONativeAdCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMONativeAdCollectionViewController.xib; sourceTree = "<group>"; };
+		4673F4C92170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMOBannerAdInvalidTableViewCell.h; sourceTree = "<group>"; };
+		4673F4CA2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMOBannerAdInvalidTableViewCell.m; sourceTree = "<group>"; };
+		4673F4CB2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMOBannerAdInvalidTableViewCell.xib; sourceTree = "<group>"; };
+		4675B8E0215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMONativeAdNormalFeedTableViewCell.m; sourceTree = "<group>"; };
+		4675B8E1215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMONativeAdNormalFeedTableViewCell.xib; sourceTree = "<group>"; };
+		4675B8E4215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMONativeAdFeedTableViewCell.h; sourceTree = "<group>"; };
+		4675B8E5215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMONativeAdFeedTableViewCell.m; sourceTree = "<group>"; };
+		4675B8E6215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMONativeAdFeedTableViewCell.xib; sourceTree = "<group>"; };
+		4675B8E9215C819C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMONativeAdNormalFeedTableViewCell.h; sourceTree = "<group>"; };
+		4686B469216DA9FA00502527 /* CLDEMOInterstitialAdConfig.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMOInterstitialAdConfig.xib; sourceTree = "<group>"; };
+		46A9C9BA2186A58000AA3525 /* CLDEMOBannerAdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDEMOBannerAdTableViewController.m; sourceTree = "<group>"; };
+		46A9C9BB2186A58000AA3525 /* CLDEMOBannerAdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMOBannerAdTableViewController.h; sourceTree = "<group>"; };
+		46A9C9BD2186A78F00AA3525 /* CLDEMOBannerAdDisplayContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLDEMOBannerAdDisplayContainerView.xib; sourceTree = "<group>"; };
+		46B134C2212E8659008323CA /* SDKAndDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKAndDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B1388A212E8B95008323CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46B1388B212E8B95008323CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B13896212E8B96008323CA /* CLDEMOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMOAppDelegate.h; sourceTree = "<group>"; };
+		46B13897212E8B96008323CA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46B13898212E8B96008323CA /* CLDEMOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDEMOAppDelegate.m; sourceTree = "<group>"; };
+		46B1389B212E8B96008323CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46B1389D212E8B96008323CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		46D8ED8621747F9700433506 /* CLDEMORootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDEMORootTableViewController.m; sourceTree = "<group>"; };
+		46D8ED8721747F9700433506 /* CLDEMORootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMORootTableViewController.h; sourceTree = "<group>"; };
+		46E148BD21522C840076FB37 /* CLDEMOInterstitialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDEMOInterstitialTableViewController.m; sourceTree = "<group>"; };
+		46E148BE21522C840076FB37 /* CLDEMONativeAdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDEMONativeAdTableViewController.m; sourceTree = "<group>"; };
+		46E148C021522C840076FB37 /* CLDEMOInterstitialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMOInterstitialTableViewController.h; sourceTree = "<group>"; };
+		46E148C121522C840076FB37 /* CLDEMONativeAdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMONativeAdTableViewController.h; sourceTree = "<group>"; };
+		46E148C521522C840076FB37 /* CLDEMOLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDEMOLog.m; sourceTree = "<group>"; };
+		46E148C621522C840076FB37 /* CLDEMOAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMOAppInfo.h; sourceTree = "<group>"; };
+		46E148C821522C840076FB37 /* CLDEMOAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDEMOAppInfo.m; sourceTree = "<group>"; };
+		46E148C921522C840076FB37 /* CLDEMOLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDEMOLog.h; sourceTree = "<group>"; };
+		46E148E32152535F0076FB37 /* CLDEMORootTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMORootTableViewCell.h; sourceTree = "<group>"; };
+		46E148E42152535F0076FB37 /* CLDEMORootTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMORootTableViewCell.m; sourceTree = "<group>"; };
+		46E148E62152550E0076FB37 /* CLDEMORootTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMORootTableViewCell.xib; sourceTree = "<group>"; };
+		46ED925A21784C1300501B7C /* CLDEMOStaticSectonHeaderTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDEMOStaticSectonHeaderTableViewController.h; sourceTree = "<group>"; };
+		46ED925B21784C1300501B7C /* CLDEMOStaticSectonHeaderTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDEMOStaticSectonHeaderTableViewController.m; sourceTree = "<group>"; };
+		46ED925D21784EBA00501B7C /* CLDEMONativeOnNormalLoadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLDEMONativeOnNormalLoadView.xib; sourceTree = "<group>"; };
+		8A811F8172BE09F17A138401 /* Pods-SDKAndDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKAndDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDKAndDemo/Pods-SDKAndDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46B134BF212E8659008323CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2065D7D9230A66457B51D4 /* libPods-SDKAndDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F6052EC0BAC42486C9B0FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AAE8E3F08C2CEAC5C54B45F /* Pods-SDKAndDemo.debug.xcconfig */,
+				8A811F8172BE09F17A138401 /* Pods-SDKAndDemo.release.xcconfig */,
+				0B4F87743C394E9BA8D55106 /* Pods-SDKAndDemo.uitesting.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46B134B9212E8659008323CA = {
+			isa = PBXGroup;
+			children = (
+				F80B2D6941C6E494803B82D0 /* Frameworks */,
+				00F6052EC0BAC42486C9B0FC /* Pods */,
+				46B134C3212E8659008323CA /* Products */,
+				46B134C4212E8659008323CA /* SDKAndDemo */,
+			);
+			sourceTree = "<group>";
+		};
+		46B134C3212E8659008323CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46B134C2212E8659008323CA /* SDKAndDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46B134C4212E8659008323CA /* SDKAndDemo */ = {
+			isa = PBXGroup;
+			children = (
+				46E148BC21522C840076FB37 /* AdViewControllers */,
+				46B1388A212E8B95008323CA /* Assets.xcassets */,
+				46B13899212E8B96008323CA /* Base.lproj */,
+				46B13896212E8B96008323CA /* CLDEMOAppDelegate.h */,
+				46B13898212E8B96008323CA /* CLDEMOAppDelegate.m */,
+				46B1388B212E8B95008323CA /* Info.plist */,
+				46B13897212E8B96008323CA /* main.m */,
+				46E148C321522C840076FB37 /* Utils */,
+				46E148D821524B580076FB37 /* Views */,
+			);
+			path = SDKAndDemo;
+			sourceTree = "<group>";
+		};
+		46B13899212E8B96008323CA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				46B1389A212E8B96008323CA /* LaunchScreen.storyboard */,
+				46B1389C212E8B96008323CA /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		46E148BC21522C840076FB37 /* AdViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46A9C9BB2186A58000AA3525 /* CLDEMOBannerAdTableViewController.h */,
+				46A9C9BA2186A58000AA3525 /* CLDEMOBannerAdTableViewController.m */,
+				46E148C021522C840076FB37 /* CLDEMOInterstitialTableViewController.h */,
+				46E148BD21522C840076FB37 /* CLDEMOInterstitialTableViewController.m */,
+				4673F4B6217088DB00D5193C /* CLDEMONativeAdDisplayContainerTypeTableViewController.h */,
+				4673F4B7217088DB00D5193C /* CLDEMONativeAdDisplayContainerTypeTableViewController.m */,
+				46E148C121522C840076FB37 /* CLDEMONativeAdTableViewController.h */,
+				46E148BE21522C840076FB37 /* CLDEMONativeAdTableViewController.m */,
+				4673F4BF21708B1200D5193C /* CLDEMONativeAdCollectionViewController.h */,
+				4673F4C021708B1200D5193C /* CLDEMONativeAdCollectionViewController.m */,
+				4673F4C121708B1200D5193C /* CLDEMONativeAdCollectionViewController.xib */,
+				4664FBAB217745DA00AD115A /* CLDEMONativeNormalTableViewController.h */,
+				4664FBAC217745DA00AD115A /* CLDEMONativeNormalTableViewController.m */,
+				46D8ED8721747F9700433506 /* CLDEMORootTableViewController.h */,
+				46D8ED8621747F9700433506 /* CLDEMORootTableViewController.m */,
+				4664FB9D2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.h */,
+				4664FB9E2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.m */,
+				4664FB9F2176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.xib */,
+				46ED925A21784C1300501B7C /* CLDEMOStaticSectonHeaderTableViewController.h */,
+				46ED925B21784C1300501B7C /* CLDEMOStaticSectonHeaderTableViewController.m */,
+			);
+			path = AdViewControllers;
+			sourceTree = "<group>";
+		};
+		46E148C321522C840076FB37 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4664FB9A2176D0F700AD115A /* CLDEMOInterstitialConfig.h */,
+				4664FB9B2176D0F700AD115A /* CLDEMOInterstitialConfig.m */,
+				46E148C921522C840076FB37 /* CLDEMOLog.h */,
+				46E148C521522C840076FB37 /* CLDEMOLog.m */,
+				46E148C621522C840076FB37 /* CLDEMOAppInfo.h */,
+				46E148C821522C840076FB37 /* CLDEMOAppInfo.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		46E148D821524B580076FB37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46A9C9BD2186A78F00AA3525 /* CLDEMOBannerAdDisplayContainerView.xib */,
+				46E148E32152535F0076FB37 /* CLDEMORootTableViewCell.h */,
+				46E148E42152535F0076FB37 /* CLDEMORootTableViewCell.m */,
+				46E148E62152550E0076FB37 /* CLDEMORootTableViewCell.xib */,
+				4675B8E9215C819C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.h */,
+				4675B8E0215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.m */,
+				4675B8E1215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.xib */,
+				4675B8E4215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.h */,
+				4675B8E5215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.m */,
+				4675B8E6215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.xib */,
+				461B2E89216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.h */,
+				461B2E8A216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.m */,
+				461B2E8B216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.xib */,
+				4673F4C92170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.h */,
+				4673F4CA2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.m */,
+				4673F4CB2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.xib */,
+				4686B469216DA9FA00502527 /* CLDEMOInterstitialAdConfig.xib */,
+				466E84A6216F274B00B38982 /* CLDEMONativeAdLoadView.xib */,
+				4664FBA22176D6F300AD115A /* CLDEMOInterstitialAdDisplayView.xib */,
+				4664FBA42177445C00AD115A /* CLDEMONativeOnNormalContainerView.xib */,
+				46ED925D21784EBA00501B7C /* CLDEMONativeOnNormalLoadView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F80B2D6941C6E494803B82D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3C27B83319E5557621676 /* libPods-SDKAndDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46B134C1212E8659008323CA /* SDKAndDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B134EE212E865A008323CA /* Build configuration list for PBXNativeTarget "SDKAndDemo" */;
+			buildPhases = (
+				AA1F1CC2FF09071C719CAA95 /* [CP] Check Pods Manifest.lock */,
+				46B134BE212E8659008323CA /* Sources */,
+				46B134BF212E8659008323CA /* Frameworks */,
+				46B134C0212E8659008323CA /* Resources */,
+				46B13516212E86CA008323CA /* Embed Frameworks */,
+				928A215055A97FCA6DD91464 /* [CP] Embed Pods Frameworks */,
+				F079719C909EFFFF61AE6A15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKAndDemo;
+			productName = SDKAndDemo;
+			productReference = 46B134C2212E8659008323CA /* SDKAndDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46B134BA212E8659008323CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Glassesd;
+				TargetAttributes = {
+					46B134C1212E8659008323CA = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46B134BD212E8659008323CA /* Build configuration list for PBXProject "SDKAndDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46B134B9212E8659008323CA;
+			productRefGroup = 46B134C3212E8659008323CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B134C1212E8659008323CA /* SDKAndDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46B134C0212E8659008323CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4673F4CD2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.xib in Resources */,
+				4664FBA52177445C00AD115A /* CLDEMONativeOnNormalContainerView.xib in Resources */,
+				46B138B0212E8B98008323CA /* Assets.xcassets in Resources */,
+				4664FBA12176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.xib in Resources */,
+				46ED925E21784EBA00501B7C /* CLDEMONativeOnNormalLoadView.xib in Resources */,
+				461B2E8D216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.xib in Resources */,
+				4675B8E3215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.xib in Resources */,
+				4686B46A216DA9FA00502527 /* CLDEMOInterstitialAdConfig.xib in Resources */,
+				46E148E72152550F0076FB37 /* CLDEMORootTableViewCell.xib in Resources */,
+				466E84A7216F274B00B38982 /* CLDEMONativeAdLoadView.xib in Resources */,
+				46A9C9BE2186A78F00AA3525 /* CLDEMOBannerAdDisplayContainerView.xib in Resources */,
+				4664FBA32176D6F300AD115A /* CLDEMOInterstitialAdDisplayView.xib in Resources */,
+				46B138BB212E8B98008323CA /* LaunchScreen.storyboard in Resources */,
+				4673F4C321708B1200D5193C /* CLDEMONativeAdCollectionViewController.xib in Resources */,
+				46B138BC212E8B98008323CA /* Main.storyboard in Resources */,
+				4675B8E8215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		928A215055A97FCA6DD91464 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SDKAndDemo/Pods-SDKAndDemo-frameworks.sh",
+				"${PODS_ROOT}/../CentrixlinkGlobal/Framework/CentrixlinkGlobal.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CentrixlinkGlobal.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDKAndDemo/Pods-SDKAndDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA1F1CC2FF09071C719CAA95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDKAndDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F079719C909EFFFF61AE6A15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SDKAndDemo/Pods-SDKAndDemo-resources.sh",
+				"${PODS_ROOT}/../CentrixlinkGlobal/Assets/CLGlobalAdBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CLGlobalAdBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDKAndDemo/Pods-SDKAndDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46B134BE212E8659008323CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E148CD21522C840076FB37 /* CLDEMOLog.m in Sources */,
+				46B138BA212E8B98008323CA /* CLDEMOAppDelegate.m in Sources */,
+				4673F4C221708B1200D5193C /* CLDEMONativeAdCollectionViewController.m in Sources */,
+				4664FBAE217745DA00AD115A /* CLDEMONativeNormalTableViewController.m in Sources */,
+				46E148CF21522C840076FB37 /* CLDEMOAppInfo.m in Sources */,
+				46D8ED8821747F9700433506 /* CLDEMORootTableViewController.m in Sources */,
+				4664FB9C2176D0F700AD115A /* CLDEMOInterstitialConfig.m in Sources */,
+				4675B8E7215C8181002D1FBE /* CLDEMONativeAdFeedTableViewCell.m in Sources */,
+				46E148CA21522C840076FB37 /* CLDEMOInterstitialTableViewController.m in Sources */,
+				46E148CB21522C840076FB37 /* CLDEMONativeAdTableViewController.m in Sources */,
+				46E148E52152535F0076FB37 /* CLDEMORootTableViewCell.m in Sources */,
+				4673F4CC2170937A00D5193C /* CLDEMOBannerAdInvalidTableViewCell.m in Sources */,
+				46ED925C21784C1300501B7C /* CLDEMOStaticSectonHeaderTableViewController.m in Sources */,
+				4673F4B9217088DB00D5193C /* CLDEMONativeAdDisplayContainerTypeTableViewController.m in Sources */,
+				461B2E8C216F538000BEB6CE /* CLDEMOBannerAdContainerTableViewCell.m in Sources */,
+				46A9C9BC2186A58000AA3525 /* CLDEMOBannerAdTableViewController.m in Sources */,
+				4664FBA02176D15A00AD115A /* CLDEMOInterstitialConfigTableViewController.m in Sources */,
+				4675B8E2215C7C4C002D1FBE /* CLDEMONativeAdNormalFeedTableViewCell.m in Sources */,
+				46B138B9212E8B98008323CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46B1389A212E8B96008323CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B1389B212E8B96008323CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		46B1389C212E8B96008323CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B1389D212E8B96008323CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46B134EC212E865A008323CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46B134ED212E865A008323CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46B134EF212E865A008323CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAE8E3F08C2CEAC5C54B45F /* Pods-SDKAndDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YD88B7CYW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKAndDemo",
+				);
+				INFOPLIST_FILE = SDKAndDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.centrixlink.sdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46B134F0212E865A008323CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A811F8172BE09F17A138401 /* Pods-SDKAndDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YD88B7CYW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKAndDemo",
+				);
+				INFOPLIST_FILE = SDKAndDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.centrixlink.sdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46F2E88221548243000C1D16 /* UITesting */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = UITesting;
+		};
+		46F2E88521548243000C1D16 /* UITesting */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4F87743C394E9BA8D55106 /* Pods-SDKAndDemo.uitesting.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YD88B7CYW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKAndDemo",
+				);
+				INFOPLIST_FILE = SDKAndDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.centrixlink.sdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UITesting;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46B134BD212E8659008323CA /* Build configuration list for PBXProject "SDKAndDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B134EC212E865A008323CA /* Debug */,
+				46B134ED212E865A008323CA /* Release */,
+				46F2E88221548243000C1D16 /* UITesting */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B134EE212E865A008323CA /* Build configuration list for PBXNativeTarget "SDKAndDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B134EF212E865A008323CA /* Debug */,
+				46B134F0212E865A008323CA /* Release */,
+				46F2E88521548243000C1D16 /* UITesting */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46B134BA212E8659008323CA /* Project object */;
+}

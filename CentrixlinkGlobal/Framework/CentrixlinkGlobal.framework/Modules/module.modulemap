@@ -1,0 +1,6 @@
+framework module CentrixlinkGlobal {
+  umbrella header "CentrixlinkGlobal.h"
+
+  export *
+  module * { export * }
+}
