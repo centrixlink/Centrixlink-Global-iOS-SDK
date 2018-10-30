@@ -18,7 +18,7 @@ pod 'CentrixlinkGlobal', '1.0.0'
 ##### 2.2.1 
 在Github Release中下载最新版本`CentrixlinkGlobal.framework`,将两者添加到工程中.
 ##### 2.2.2
-在应用Target中的`General`的`Embeded Binaries`中添加    `CentrixlinkGlobal.framework`.
+在应用Target中的`General`的`Embeded Binaries`中添加    `CentrixlinkGlobal.framework`.
 ##### 2.2.3
 在`Linked Frameworks and Libraries`中添加以下依赖:
     * UIKit.framework
